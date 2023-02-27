@@ -20,7 +20,7 @@ fs.readFile("project.html", (err, project) => {
   projectpage = project;
 });
 
-fs.readFile("Registration.html", (err, registration) => {
+fs.readFile("registration.html", (err, registration) => {
   if (err) {
     throw err;
   }
